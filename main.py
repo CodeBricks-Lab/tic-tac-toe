@@ -2,7 +2,6 @@ import os
 from board import TTTBoard 
 
 def clear_screen():
-  
   if os.name == 'nt':
       # for windows
       os.system('cls')
@@ -37,3 +36,4 @@ if __name__ == '__main__':
         break
       
       current_turn += 1
+  
